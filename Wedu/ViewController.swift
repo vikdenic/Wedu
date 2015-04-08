@@ -7,19 +7,29 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+//        UdacityDataManager.queryCoursesByTrack(.iOS, completed: { (courses) -> Void in
+//            println(courses)
+//        })
+
+//        UdacityDataManager.queryAllCourses { (courses) -> Void in
+//            println(courses)
+//        }
+
+//        CourseraDataManager.queryAllCourses { (courses) -> Void in
+//        
+//            for course in courses
+//            {
+//                println(course["name"] as String!)
+//            }
+//        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
+
 
